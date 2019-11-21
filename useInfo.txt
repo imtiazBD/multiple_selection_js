@@ -1,0 +1,24 @@
+
+<link rel="stylesheet" href="{{ asset('admin/plugins/select2/select2.min.css') }}">
+
+
+                          <div class="form-group" style="margin-top:18px;">
+                                <label>Select Tags</label>
+                                <select class="form-control select2 select2-hidden-accessible" multiple="" data-placeholder="Select a State" style="width: 100%;" tabindex="-1" aria-hidden="true" name="">
+                                  <option>Ban 1</option>
+                                  <option>Ban 2</option>
+                                  <option>Ban 3</option>
+                                </select>
+                              </div>
+
+
+<script src="{{ asset('admin/plugins/select2/select2.full.min.js') }}"></script>
+
+<script type="text/javascript">
+   
+   $(document).ready(function(){
+
+    $(".select2").select2();
+   });
+
+</script>
